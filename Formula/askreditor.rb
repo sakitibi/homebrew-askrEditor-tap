@@ -7,18 +7,18 @@ class Askreditor < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/sakitibi/askreditor/releases/download/v#{Version}/askreditor-#{Version}-darwin-arm64.tar.gz"
-      sha256 "3a43a194ca4fa1e1e1b50becdc73fba275b7b9b19e3004c618fd9984daa8b626"
+      sha256 "88cbf65b52a0a30f40ab918779f7fced737013c8b88da4f4d26c16e3e9073139"
     else
       url "https://github.com/sakitibi/askreditor/releases/download/v#{Version}/askreditor-#{Version}-darwin-amd64.tar.gz"
-      sha256 "5bfe79265db0147e7eb22a8ff68b382c75d99acf14e6505192e879a1aab47eb1"
+      sha256 "416459ea3a00f53b218aa9fed7130ce210a01606a5d8c8dde3ece744e7822435"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/sakitibi/askreditor/releases/download/v#{Version}/askreditor-#{Version}-linux-arm64.tar.gz"
-      sha256 "6b02914a556fa6ea33172e76aca3f3ade8c82f471ae091c60c5de1fb25fee041"
+      sha256 "9ab71f2942721d62909e074b77b65b51372156ecd81cadc7e33aceaf61a357b0"
     else
       url "https://github.com/sakitibi/askreditor/releases/download/v#{Version}/askreditor-#{Version}-linux-amd64.tar.gz"
-      sha256 "e392fad4eed92a0ae82aa5b2c96ba49078edae968b887e8b0c6aa8c12feb1bbb"
+      sha256 "733c038bae164443ba413e2e27f83f20e17ba5223064b12b7bd9be075678cf99"
     end
   end
 
