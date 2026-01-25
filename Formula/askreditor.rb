@@ -1,4 +1,4 @@
-Version = "2.0.60";
+Version = "2.0.80";
 class Askreditor < Formula
   desc "CLI editor for .askr files with Supabase replace integration"
   homepage "https://github.com/sakitibi/askreditor"
