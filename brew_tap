@@ -1,0 +1,4 @@
+brew uninstall askreditor
+brew untap sakitibi/askrEditor-tap
+brew tap sakitibi/askrEditor-tap
+brew install askreditor
