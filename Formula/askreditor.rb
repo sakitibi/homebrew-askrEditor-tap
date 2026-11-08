@@ -1,4 +1,4 @@
-Version = "2.1.20";
+Version = "2.1.40";
 class Askreditor < Formula
   desc "CLI editor for .askr files with Supabase replace integration"
   homepage "https://github.com/sakitibi/askreditor"
@@ -7,18 +7,18 @@ class Askreditor < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/sakitibi/askreditor/releases/download/v#{Version}/askreditor-#{Version}-darwin-arm64.tar.gz"
-      sha256 "976afd7783b734e000f3cd72280716081da731955b1aa6187d8a2f2d87d06634"
+      sha256 "12889e4443c166d8f7b8ca11fef0de96d0859d921de45cfb0ae91da11e6cd088"
     else
       url "https://github.com/sakitibi/askreditor/releases/download/v#{Version}/askreditor-#{Version}-darwin-amd64.tar.gz"
-      sha256 "fb4947c8a2f8bdceeba1fbd050db8927fe0d69634ac62368a60e3d4fafc47d89"
+      sha256 "a7743ee379e428d960049faf8fe545f8c524a4cb78ad04f29cae8e1383e87f11"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/sakitibi/askreditor/releases/download/v#{Version}/askreditor-#{Version}-linux-arm64.tar.gz"
-      sha256 "91c0fbb52bb653a2d52591b745316f0490f3b3c6f7e1c283fbca79d4c0ae8bdb"
+      sha256 "0bd4ca6aade3f54a58cccbb27c9764f400df22ffcc6a884b7d9b593a423d80cf"
     else
       url "https://github.com/sakitibi/askreditor/releases/download/v#{Version}/askreditor-#{Version}-linux-amd64.tar.gz"
-      sha256 "a7b7b59448b0963724249d4b02fb7040a6a67f7b3e219a1b9d654b2b8df2d50c"
+      sha256 "259c21b375f8a00f4f286e5705111ce19f38b74ecfdb187c7b72548647b674ec"
     end
   end
 
